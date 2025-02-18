@@ -5,3 +5,4 @@ docs/
 _quarto.yml
 tests/
 galleries/example/
+examples/

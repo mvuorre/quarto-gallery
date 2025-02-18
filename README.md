@@ -1,9 +1,23 @@
 # Quarto image gallery
 
-A Quarto extension/template for adding image galleries to your Quarto website.
+A Quarto extension/template for adding image galleries to your Quarto website. Put images in a directory, run `quarto render`, and you get an image gallery + a listing page of all your galleries to put on your website.
 
-- Source repo: https://github.com/mvuorre/quarto-gallery
-- Live demo: https://mvuorre.github.io/quarto-gallery/
+- Source repo: <https://github.com/mvuorre/quarto-gallery>
+- Live demo: <https://mvuorre.github.io/quarto-gallery/>
+
+## Examples
+
+### Listing of galleries
+
+Here's what a listing of galleries looks like (it's just a vanilla Quarto listing):
+
+![Screenshot of a listing page showing multiple galleries](examples/listing.webp)
+
+### Gallery page
+
+And here's what a gallery page looks like:
+
+![Screenshot of a gallery page with images](examples/page.webp)
 
 ## Install
 
