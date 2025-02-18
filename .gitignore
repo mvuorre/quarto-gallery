@@ -1,6 +1,0 @@
-.luarc.json
-/.quarto/
-.quarto
-/docs/
-/tests/
-!/tests/_quarto.yml
