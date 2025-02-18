@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - galleries.qmd
+    - galleries/
+  pre-render: generate-gallery.ts
+  # Hack to clean temporary file
+  post-render:
+    - find galleries/ -name "gallery-styles.css" -delete
+
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Galleries
+        href: galleries.qmd
