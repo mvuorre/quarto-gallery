@@ -2,18 +2,25 @@
 
 function Div(el)
     if el.classes:includes("gallery") then
-        -- Process each image in the gallery
-        for i, item in ipairs(el.content) do
-            if item.t == "Para" and item.content[1].t == "Image" then
-                -- Create a figure for each image
-                local img = item.content[1]
-                local figure = pandoc.Figure(
-                    pandoc.Plain { img },
-                    img.caption -- Use image alt text as caption if present
-                )
-                el.content[i] = figure
+        local new_div = pandoc.Div({})
+        new_div.classes = { "gallery" }
+
+        for _, item in ipairs(el.content) do
+            if item.t == "Para" then
+                for _, content in ipairs(item.content) do
+                    if content.t == "Image" then
+                        local figure = pandoc.Div({
+                            pandoc.Figure(
+                                pandoc.Plain { content },
+                                content.caption
+                            )
+                        })
+                        table.insert(new_div.content, figure)
+                    end
+                end
             end
         end
-        return el
+
+        return new_div
     end
 end
