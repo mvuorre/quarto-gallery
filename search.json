@@ -11,7 +11,14 @@
     "href": "index.html",
     "title": "Quarto image gallery",
     "section": "",
-    "text": "A Quarto extension/template for adding image galleries to your Quarto website.\n\nSource repo: https://github.com/mvuorre/quarto-gallery\nLive demo: https://mvuorre.github.io/quarto-gallery/\n\n\n\n\nAdd extension\n\nquarto use template mvuorre/quarto-gallery\n\ninclude pre-render: generate-gallery.ts in _quarto.yml\nCreate your gallery at galleries/&lt;name&gt;/ with index.qmd and images/&lt;images.ext&gt;\n\nSee galleries/my-gallery/ for an example\n\nEdit galleries/_metadata.yml and galleries.qmd to your liking\nquarto render"
+    "text": "A Quarto extension/template for adding image galleries to your Quarto website. Put images in a directory, run quarto render, and you get an image gallery + a listing page of all your galleries to put on your website.\n\nSource repo: https://github.com/mvuorre/quarto-gallery\nLive demo: https://mvuorre.github.io/quarto-gallery/\n\n\n\n\n\nHere’s what a listing of galleries looks like (it’s just a vanilla Quarto listing):\n\n\n\nScreenshot of a listing page showing multiple galleries\n\n\n\n\n\nAnd here’s what a gallery page looks like:\n\n\n\nScreenshot of a gallery page with images\n\n\n\n\n\n\n\nAdd extension\n\nquarto use template mvuorre/quarto-gallery\n\ninclude pre-render: generate-gallery.ts in _quarto.yml\nCreate your gallery at galleries/&lt;name&gt;/ with index.qmd and images/&lt;images.ext&gt;\n\nSee galleries/my-gallery/ for an example\n\nEdit galleries/_metadata.yml and galleries.qmd to your liking\nquarto render"
+  },
+  {
+    "objectID": "index.html#examples",
+    "href": "index.html#examples",
+    "title": "Quarto image gallery",
+    "section": "",
+    "text": "Here’s what a listing of galleries looks like (it’s just a vanilla Quarto listing):\n\n\n\nScreenshot of a listing page showing multiple galleries\n\n\n\n\n\nAnd here’s what a gallery page looks like:\n\n\n\nScreenshot of a gallery page with images"
   },
   {
     "objectID": "index.html#install",
