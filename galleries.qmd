@@ -1,0 +1,14 @@
+---
+title: "Photo Galleries"
+listing:
+  - id: galleries
+    contents: galleries
+    type: grid
+    sort: "date desc"
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, title, description]
+---
+
+Welcome to our photo galleries...

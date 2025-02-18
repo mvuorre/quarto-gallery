@@ -1,0 +1,13 @@
+project:
+  type: website
+  pre-render: _extensions/gallery/generate-gallery.ts
+
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Galleries
+        href: galleries.qmd
