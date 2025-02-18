@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Quarto image gallery",
     "section": "",
-    "text": "Add extension\n\nquarto use template mvuorre/quarto-gallery\n\ninclude pre-render: generate-gallery.ts in _quarto.yml\nCreate your gallery at galleries/&lt;name&gt;/ with index.qmd and images/&lt;images.ext&gt;\n\nSee galleries/my-gallery/ for an example\n\nEdit galleries/_metadata.yml and galleries.qmd to your liking\nquarto render"
+    "text": "A Quarto extension/template for adding image galleries to your Quarto website.\nSource repo: https://github.com/mvuorre/quarto-gallery Live demo: https://mvuorre.github.io/quarto-gallery/\n\n\n\nAdd extension\n\nquarto use template mvuorre/quarto-gallery\n\ninclude pre-render: generate-gallery.ts in _quarto.yml\nCreate your gallery at galleries/&lt;name&gt;/ with index.qmd and images/&lt;images.ext&gt;\n\nSee galleries/my-gallery/ for an example\n\nEdit galleries/_metadata.yml and galleries.qmd to your liking\nquarto render"
   },
   {
     "objectID": "index.html#install",
