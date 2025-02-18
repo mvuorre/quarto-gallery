@@ -1,6 +1,14 @@
 project:
   type: website
-  pre-render: _extensions/gallery/generate-gallery.ts
+  output-dir: docs
+  render:
+    - index.qmd
+    - galleries.qmd
+    - galleries/
+  pre-render: generate-gallery.ts
+  # Hack to clean temporary file
+  post-render:
+    - find galleries/ -name "gallery-styles.css" -delete
 
 website:
   navbar:

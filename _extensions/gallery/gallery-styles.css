@@ -1,0 +1,57 @@
+/* _extensions/gallery/styles.css */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.gallery img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Add some breathing room around the gallery */
+.quarto-layout-panel {
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+
+/* Add spacing between rows */
+.quarto-layout-row {
+    margin-bottom: 1.5rem;
+}
+
+/* Style the image container */
+.quarto-layout-cell {
+    padding: 0.75rem;
+}
+
+/* Style the images */
+.quarto-layout-cell img {
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover effect */
+.quarto-layout-cell img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Ensure images maintain aspect ratio */
+.quarto-layout-cell a {
+    display: block;
+    overflow: hidden;
+}
+
+/* Make sure images fill their container nicely */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}

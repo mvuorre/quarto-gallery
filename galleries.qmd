@@ -1,5 +1,5 @@
 ---
-title: "Photo Galleries"
+title: "Galleries"
 listing:
   - id: galleries
     contents: galleries
@@ -10,5 +10,3 @@ listing:
     filter-ui: true
     fields: [image, title, description]
 ---
-
-Welcome to our photo galleries...

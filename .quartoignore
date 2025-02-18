@@ -1,0 +1,7 @@
+**/.DS_Store
+index.qmd
+Makefile
+docs/
+_quarto.yml
+tests/
+galleries/example/

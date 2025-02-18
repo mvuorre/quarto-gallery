@@ -1,23 +1,13 @@
-# <%= title %> Format
+# Quarto image gallery
 
-## Installing
+## Install
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
+1. Add extension
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto use template mvuorre/quarto-gallery
 ```
-
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
-
-## Using
-
-*TODO*: Describe how to use your format.
-
-## Format Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
-
-## Example
-
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+2. include `pre-render: generate-gallery.ts` in [`_quarto.yml`](_quarto.yml)
+3. Create your gallery at `galleries/<name>/` with `index.qmd` and `images/<images.ext>`
+    - See `galleries/my-gallery/` for an example
+4. Edit `galleries/_metadata.yml` and `galleries.qmd` to your liking
+5. `quarto render`
