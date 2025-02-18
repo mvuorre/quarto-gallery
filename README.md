@@ -1,5 +1,10 @@
 # Quarto image gallery
 
+A Quarto extension/template for adding image galleries to your Quarto website.
+
+Source repo: https://github.com/mvuorre/quarto-gallery
+Live demo: https://mvuorre.github.io/quarto-gallery/
+
 ## Install
 
 1. Add extension
