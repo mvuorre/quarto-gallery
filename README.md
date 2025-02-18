@@ -1,6 +1,6 @@
 # Quarto image gallery
 
-A Quarto extension/template for adding image galleries to your Quarto website. Put images in a directory, run `quarto render`, and you get an image gallery + a listing page of all your galleries to put on your website.
+A Quarto extension/template for adding image galleries to your Quarto website. Put images in a directory, run `quarto render`, and you get an image gallery + a listing page of all your galleries to put on your website. Galleries and image views can be customised with Lightbox, see <https://quarto.org/docs/output-formats/html-lightbox-figures.html>.
 
 - Source repo: <https://github.com/mvuorre/quarto-gallery>
 - Live demo: <https://mvuorre.github.io/quarto-gallery/>
